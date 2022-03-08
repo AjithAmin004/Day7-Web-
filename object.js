@@ -23,3 +23,14 @@ let capAmerica = {
     }
 }
 console.log(capAmerica);
+
+//Accessing in objects
+
+console.log(capAmerica.name);
+console.log(capAmerica.age);
+console.log(capAmerica.friends);
+console.log(capAmerica.friends[0]);
+console.log(capAmerica.address);
+console.log(capAmerica.address.city);
+console.log(capAmerica.sayHi());
+capAmerica.sayHi();
