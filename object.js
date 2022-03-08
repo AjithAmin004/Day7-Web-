@@ -34,3 +34,11 @@ console.log(capAmerica.address);
 console.log(capAmerica.address.city);
 console.log(capAmerica.sayHi());
 capAmerica.sayHi();
+
+
+//adding the new key or deleting the key
+capAmerica.movie = "Avenger";
+console.log(capAmerica.movie);
+
+delete capAmerica.movie;
+console.log(capAmerica.movie);
