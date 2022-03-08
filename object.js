@@ -42,3 +42,9 @@ console.log(capAmerica.movie);
 
 delete capAmerica.movie;
 console.log(capAmerica.movie);
+
+
+//2nd method of  accesing the key
+
+console.log(capAmerica["age"]);
+console.log(capAmerica.age);
